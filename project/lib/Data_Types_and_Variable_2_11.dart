@@ -57,8 +57,8 @@ print(a);
 
     //Login Check , login or Not using boolean
 
-    bool isLogin = false;
-    isLogin =true;
+    // bool isLogin = false;
+    // isLogin =true;
 
 
 // Inline Declaration
