@@ -1,6 +1,8 @@
 import 'dart:ffi';
 import 'dart:io';
 
+
+// 2 Nov 2024
 // Q1:** What are some primary data types in Dart?
 // Provide an example of each (e.g., `int`, `double`, `String`, `bool`, `BigInt`).
 
@@ -20,14 +22,14 @@ void main() {
 
   // String
 
-  String name = 'Linuxclaw';
+  String namestring = 'Linuxclaw';
 
-  print('Answer 1 $name');
+  print('Answer 1 $namestring');
 
 // Bool
 
   bool isLogin = true;
-
+  print(isLogin);
 //BigInt
 
   BigInt LongValue;
@@ -52,8 +54,12 @@ void main() {
 
   // 3. **Using Standard Input**
   // - **Q3:** Write code to take a string input from the user and print it with a greeting.
+  // Chatgpt
+  print('Enter a value');
+  String? input = stdin.readLineSync(); // ? allows nullable values.
 
-  // var inputString= stdin.readLineSync();
+  int number = int.parse(input!); // parse input to integer
+  print('Answer 3, Entered value is $number');
   //
   // print(inputString);
   //
@@ -77,12 +83,10 @@ void main() {
   // - **Q5:** Explain the purpose of the `BigInt` type in Dart. Write code to parse a large number as a `BigInt`.
 
   // Ans :- BigInt uses for Storing value larger than int values which int can't store'
+  // Chatgpt
 
-  // BigInt LongValue;
-  //
-  // BigInt = Longvalue.parse('487372393028398920948328');
-  //
-  // print(LongValue);
+  BigInt LongValue2 = BigInt.parse('36462672378727482379748973487');
+  print('Answer 5. Bigint Value is $LongValue');
 
   //
   // 6. **Double and num Types**
@@ -113,9 +117,22 @@ void main() {
   // 7. **Boolean Values**
   // - **Q7:** How do you declare a boolean variable? Write a code snippet to set a boolean variable to `true` or `false` based on a login status.
 
+  bool isLogin2 = true;
+  print('7. Value is $isLogin2');
+
+  bool isLogout = true;
+  print(' Value is $isLogout');
+
   //
   // 8. **String Variable Assignment and Modification**
-  // - **Q8:** Write code to declare a string variable, assign it a value, and then reassign it with a new value. Why does Dart allow this?
+  // - **Q8:** Write code to declare a string variable, assign it a value,
+  // and then reassign it with a new value. Why does Dart allow this?
+
+  String? name2 = 'Ashish';
+  print('Answer 8. String Value is $name2');
+
+  name2 = 'Linuxclaw';
+  print('Reassigned value is $name2');
 
   //
   // 9. **Variable Type Inference**
@@ -160,4 +177,9 @@ void main() {
   // 12. **String Interpolation**
   // - **Q12:** What is string interpolation? Write code to create a `String` variable `name` and print "Hello, [name]!"
   // by using string interpolation.
+
+  String name = 'Syclla';
+  print('Answer 12,Before interpolation $name');
+
+  print('After Interpolation, Hello [$name]');
 }
