@@ -32,12 +32,12 @@ void main(){
     print('2 ');
   } else if(ab>80){
     // Condition 3
-    print('3 2 Conidtions Loop');
+    print('3 2 Conditions Loop');
   } else if(ab==500){
     print('4');
   }
     else{
-    // all condtions are false
+    // all conditions are false
     print('false');
   }
 
