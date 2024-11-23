@@ -15,7 +15,7 @@ void main(){
     // Condition 3
     print('3 $a');
   } else{
-    // all condtions are false
+    // all conditions are false
     print('false');
   }
 
@@ -41,7 +41,7 @@ void main(){
     print('false');
   }
 
-  // 2 conditions check one is true , or condition
+  // 2 conditions check one is true , *(or condition)*
 
   var aa=100;
   var bb=50;
