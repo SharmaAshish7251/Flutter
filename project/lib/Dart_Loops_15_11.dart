@@ -12,16 +12,17 @@ void main(){
     print("Hello ");
   }
 
+
+
+
   int no=100;
+      do {
+      print('Number value is : $no');
+      no += 1; // Increment the value of no by 1
+      // no++; all methods we can use
+      // no = no+1;
+      print(no);
+    } while (no < 50); // The condition checks after the first loop execution
 
-  do{
-
-  } while(no<50);{
-    print('Number value is : $no');
-    // no++; all methods we can use
-    // no = no+1;
-    // no+=1;
-
-  }
 
 }
