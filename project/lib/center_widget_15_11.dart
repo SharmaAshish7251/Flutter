@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
             width: 500,
             height: 750,
             color: Colors.purpleAccent,
-            child: Text('Hellow Devops'),
+            child: Text('Hello Devops'),
 
           ),
         )
