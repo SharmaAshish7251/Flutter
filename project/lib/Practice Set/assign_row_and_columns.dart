@@ -38,18 +38,23 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         body: Container(
+
           width: 900,
-          height: 300,
-          color: Colors.redAccent,
+          height: 250,
+          color: Colors.white70,
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            crossAxisAlignment: CrossAxisAlignment.center,
+
             children: [
               Container(
                 width: 490,
-                height: 300,
-                color: Colors.blueGrey,
+                height: 250,
+                color: Colors.white70,
                 child: Column(children: [
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
                         'Strawberry Pavlova',
@@ -73,6 +78,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   Container(
                     child: Row(
+                      // crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Row(
                           children: [
@@ -87,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                         Row(
                           children: [
-                            Text('170'),
+                            Text('170 '),
                             Text('Reviews',
                               style: TextStyle(
                                 fontWeight: FontWeight.w600,
@@ -101,8 +108,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Column(
+
                         children: [
                           Text('🧾'),
                           Text('Prep:'),
@@ -138,7 +147,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
 
                 width: 400,
-                height: 600,
+                height: 250,
                 color: Colors.white70,
 
                 child: Column(
