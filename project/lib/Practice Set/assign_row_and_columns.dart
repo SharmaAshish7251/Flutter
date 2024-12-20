@@ -65,16 +65,22 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ],
                   ),
-                  Row(
-                    children: [
-                      Text(
-                        'Our mentorship program connects individuals with experienced professionals who offer guidance, support, and inspiration for personal and career growth.',
-                        maxLines: 5,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ],
-                  ),
 
+
+                  SingleChildScrollView(
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0), // Add padding around the text
+                      child: Text(
+                        'Our mentorship program connects individuals with experienced professionals who offer guidance, support, and inspiration for personal and career growth. Through meaningful interactions, participants gain valuable insights and develop skills to achieve their goals, fostering a supportive community of growth and success.',
+                        style: TextStyle(
+                          fontSize: 11, // Adjust font size
+                          height: 1.5, // Adjust line height for better readability
+                          color: Colors.black, // Text color
+                        ),
+                        textAlign: TextAlign.justify, // Align text as justified
+                      ),
+                    ),
+                  ),
 
                   Container(
                     child: Row(
