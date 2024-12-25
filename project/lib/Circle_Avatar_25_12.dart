@@ -34,7 +34,6 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
 
-        var arrNames=['Akash','Raman','Akash','Raman','Vikash', 'Ravan','Akash','Raman','Vikash', 'Ravan','Vikash', 'Ravan'];
 
     return Scaffold(
       appBar: AppBar(
