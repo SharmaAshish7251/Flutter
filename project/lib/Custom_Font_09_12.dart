@@ -12,11 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Custom FOnt',
       theme: ThemeData(
         primaryColor: Colors.blueAccent,
       ),
-      home: const MyHomePage(title: 'New App'),
+      home: const MyHomePage(title: 'Custom F0nt'),
     );
   }
 }
@@ -38,7 +38,16 @@ class _MyHomePageState extends State<MyHomePage> {
           title: Text(widget.title),
         ),
         // Custom Font
-        body: Text('Hello Flutter Devs')
-    );
+
+        body: Container(
+            child: Center(
+                child: Text(
+          'Hello Flutter Devs',
+          style: TextStyle(
+              fontFamily: 'Blackout',
+              fontWeight: FontWeight.w600,
+              fontSize: 39,
+          ),
+        ))));
   }
 }
