@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:intl/intl.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -43,8 +43,14 @@ class _MyHomePageState extends State<MyHomePage> {
 
       body: Container(child: Column(
         children: [
-          Text('time $time'),
+          // Text('time ${time.hour}, minute ${time.minute}, seconds ${time.second}'),
+
+          // Text('Current date and Time \n ${DateFormat('yMMMMEEEEd').format(time)}'), day date year
+          // Text('Current date and Time \n ${DateFormat('QQQQ').format(time)}'), //Quarter
+          Text('Current date and Time \n ${DateFormat('jms').format(time)}'),
+
           ElevatedButton(onPressed: (){
+
 
 
             setState(() {
