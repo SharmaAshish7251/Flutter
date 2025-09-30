@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "114761352546",
+    "firebase_url": "https://flutterlinuxebook-default-rtdb.firebaseio.com",
+    "project_id": "flutterlinuxebook",
+    "storage_bucket": "flutterlinuxebook.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114761352546:android:a8e33156967e0fdf7a983b",
+        "android_client_info": {
+          "package_name": "com.example.books"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlUdmg_HCOOL8CibNSXTE7CigzX6L74Gw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/project/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/project/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/project/build" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots/build" />
+      <excludeFolder url="file://$MODULE_DIR$/calculator/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/calculator/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/calculator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/todo/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/todo/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/todo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots - Todo DB/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots - Todo DB/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots - Todo DB/build" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_notes  SQF_DB/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_notes  SQF_DB/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_notes  SQF_DB/build" />
+      <excludeFolder url="file://$MODULE_DIR$/cal/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/cal/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/cal/build" />
+      <excludeFolder url="file://$MODULE_DIR$/linuxtodo/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/linuxtodo/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/linuxtodo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/appnanews/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/appnanews/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/appnanews/build" />
+      <excludeFolder url="file://$MODULE_DIR$/medical/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/medical/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/medical/build" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/build" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/build" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/build" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/neatroots_provider/windows/flutter/ephemeral/.plugin_symlinks/path_provider_windows/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/newsapp_provider/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/newsapp_provider/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/newsapp_provider/build" />
+      <excludeFolder url="file://$MODULE_DIR$/notessqllite/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/notessqllite/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/notessqllite/build" />
+      <excludeFolder url="file://$MODULE_DIR$/pharmacy/pharmacy_admin/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/pharmacy/pharmacy_admin/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/pharmacy/pharmacy_admin/build" />
+      <excludeFolder url="file://$MODULE_DIR$/pharmacy/pharmacy_user/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/pharmacy/pharmacy_user/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/pharmacy/pharmacy_user/build" />
+      <excludeFolder url="file://$MODULE_DIR$/pharmacy2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/pharmacy2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/pharmacy2/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
